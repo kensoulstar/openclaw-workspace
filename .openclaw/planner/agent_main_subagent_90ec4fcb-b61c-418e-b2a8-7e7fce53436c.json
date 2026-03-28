@@ -1,0 +1,31 @@
+{
+  "description": "创建待办事项 API（RESTful CRUD）",
+  "todos": [
+    {
+      "id": "55e9af06",
+      "title": "创建项目结构和需求文档",
+      "status": "done"
+    },
+    {
+      "id": "4e50598d",
+      "title": "创建配置文件和依赖项",
+      "status": "done"
+    },
+    {
+      "id": "3eacd75b",
+      "title": "创建 Todo 模型",
+      "status": "done"
+    },
+    {
+      "id": "f1654b8d",
+      "title": "创建数据存储服务",
+      "status": "done"
+    },
+    {
+      "id": "75b5fe38",
+      "title": "创建使用说明和示例",
+      "status": "done"
+    }
+  ],
+  "phase": "planning"
+}
