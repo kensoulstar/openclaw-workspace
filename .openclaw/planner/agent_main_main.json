@@ -1,0 +1,28 @@
+{
+  "description": "Organize skills into flow: summarize → markdown-converter → news-summary → cron-mastery",
+  "todos": [
+    {
+      "id": "24bd46bb",
+      "title": "Install 'summarize' skill from ClawHub",
+      "status": "done",
+      "result": "✅ Skill 'summarize' installed via openclaw skills install summarize"
+    },
+    {
+      "id": "ce723158",
+      "title": "Install 'markdown-converter' skill",
+      "status": "done",
+      "result": "✅ Skill 'markdown-converter' installed"
+    },
+    {
+      "id": "cbf0c30c",
+      "title": "Install 'news-summary' skill",
+      "status": "in_progress"
+    },
+    {
+      "id": "8894cd57",
+      "title": "Install 'cron-mastery' skill",
+      "status": "in_progress"
+    }
+  ],
+  "phase": "execution"
+}
