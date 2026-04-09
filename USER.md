@@ -1,17 +1,38 @@
-# USER.md - About Your Human
+# USER.md - 关于星际
 
-_Learn about the person you're helping. Update this as you go._
+## 身份信息
 
-- **Name:**
-- **What to call them:**
-- **Pronouns:** _(optional)_
-- **Timezone:**
-- **Notes:**
+- **名字:** 星际（星哥）
+- **称呼:** 星际
+- **时区:** Asia/Shanghai (GMT+8)
 
-## Context
+## 身份背景
 
-_(What do they care about? What projects are they working on? What annoys them? What makes them laugh? Build this over time.)_
+- AI Native Coder，独立开发者，AI自媒体博主
+- 代表作：AI制造者
+- 公众号：星际 / B站：星际 / 小红书
 
----
+## 工作内容
 
-The more you know, the better you can help. But remember — you're learning about a person, not building a dossier. Respect the difference.
+- 公众号写作（主力，含商单）
+- B站视频创作
+- 小红书图文
+- iOS独立开发
+- AI 培训与咨询
+
+## 核心偏好
+
+- 实践导向：有案例、有步骤、可执行
+- 技术有深度，表达要易懂
+- 数据必须真实，绝不编造
+- 反感AI味：套话、过度分点、装腔作势
+- 先给结论再展开，像聊天不像答辩
+- 没有独家判断时不硬写全景综述
+- 允许不确定，但不接受硬凹
+
+## 关键资料位置
+
+- 写作总部：`C:\Users\S2673S\Documents\写作\`
+- 路由文件：`C:\Users\S2673S\Documents\CLAUDE.md`
+- AI味审校指南、风格指南、语言特征、金句表达都在 `04-写作参考/` 下
+- 星际的账号：公众号「星际」、B站「星际」、官网 bookai.top
