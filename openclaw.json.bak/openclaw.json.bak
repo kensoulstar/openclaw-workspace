@@ -1,0 +1,341 @@
+{
+  "gateway": {
+    "mode": "local",
+    "port": 18789,
+    "auth": {
+      "mode": "token",
+      "token": "84bdc8f6cd4c430e21c9801dbf9cb387f8ca47ddfde5b291"
+    },
+    "bind": "loopback",
+    "tools": {
+      "allow": [
+        "browser",
+        "web_fetch",
+        "web_search"
+      ]
+    }
+  },
+  "meta": {
+    "lastTouchedVersion": "2026.4.25",
+    "lastTouchedAt": "2026-04-27T14:30:00.000Z"
+  },
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "ollama": {
+        "baseUrl": "http://127.0.0.1:11434/v1",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "gpt-oss:120b-cloud",
+            "name": "ollama / GPT-OSS 120B Cloud",
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 32768
+          },
+          {
+            "id": "minimax-m2.1:cloud",
+            "name": "ollama / Minimax M2.1 Cloud",
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 32768
+          },
+          {
+            "id": "glm-4.7:cloud",
+            "name": "ollama / GLM-4.7 Cloud",
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 32768
+          },
+          {
+            "id": "glm-5:cloud",
+            "name": "ollama / GLM-5 Cloud",
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 32768
+          },
+          {
+            "id": "minimax-m2.5:cloud",
+            "name": "ollama / Minimax M2.5 Cloud",
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 32768
+          },
+          {
+            "id": "minimax-m2.7:cloud",
+            "name": "ollama / Minimax M2.7 Cloud",
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 32768
+          },
+          {
+            "id": "glm-5.1:cloud",
+            "name": "ollama / GLM-5.1 Cloud",
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 32768
+          },
+          {
+            "id": "deepseek-v4-flash:cloud",
+            "name": "ollama / DeepSeek V4 Flash Cloud",
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 32768
+          },
+          {
+            "id": "kimi-k2.6:cloud",
+            "name": "ollama / Kimi K2.6 Cloud",
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 32768
+          }
+        ]
+      },
+      "lm_studio": {
+        "baseUrl": "http://192.168.31.71:1234/v1",
+        "apiKey": "lm_studio",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "qwen3.6-35b-a3b-q4_k_m",
+            "name": "lm_studio / Qwen3.6-35B-A3B-Q4_K_M",
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 1048576,
+            "maxTokens": 128000,
+            "cost": {
+              "input": 2,
+              "output": 12,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            }
+          },
+          {
+            "id": "qwen3.6-27b-q4_k_m",
+            "name": "lm_studio / Qwen3.6-27B-Q4_K_M",
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 32768,
+            "cost": {
+              "input": 0.15,
+              "output": 0.6,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            }
+          },
+          {
+            "id": "qwen3.5-27b-glm5.1-distill-v1-q4_k_s",
+            "name": "lm_studio / Qwen3.5-27B-GLM5.1-Distill-v1",
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 32768,
+            "cost": {
+              "input": 0.15,
+              "output": 0.6,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            }
+          },
+          {
+            "id": "qwen3.5-9b-glm5.1-distill-v1-q4_k_s",
+            "name": "lm_studio / Qwen3.5-9B-GLM5.1-Distill-v1",
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 32768,
+            "cost": {
+              "input": 0.15,
+              "output": 0.6,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            }
+          },
+          {
+            "id": "gemma-4-31b-jang-crack-q4_k_m",
+            "name": "lm_studio / Gemma-4-31B-JANG-CRACK",
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 32768,
+            "cost": {
+              "input": 0.15,
+              "output": 0.6,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            }
+          },
+          {
+            "id": "qwopus-glm-18b-healed-q4_k_m",
+            "name": "lm_studio / Qwopus-GLM-18B-Healed",
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 32768,
+            "cost": {
+              "input": 0.15,
+              "output": 0.6,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            }
+          }
+        ]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "models": {
+        "lm_studio/qwen3.6-35b-a3b-q4_k_m": {},
+        "lm_studio/qwen3.6-27b-q4_k_m": {},
+        "lm_studio/qwen3.5-27b-glm5.1-distill-v1-q4_k_s": {},
+        "lm_studio/qwen3.5-9b-glm5.1-distill-v1-q4_k_s": {},
+        "lm_studio/gemma-4-31b-jang-crack-q4_k_m": {},
+        "lm_studio/qwopus-glm-18b-healed-q4_k_m": {},
+        "ollama/gpt-oss:120b-cloud": {},
+        "ollama/minimax-m2.1:cloud": {},
+        "ollama/glm-4.7:cloud": {},
+        "ollama/glm-5:cloud": {},
+        "ollama/minimax-m2.5:cloud": {},
+        "ollama/minimax-m2.7:cloud": {},
+        "ollama/glm-5.1:cloud": {},
+        "ollama/deepseek-v4-flash:cloud": {},
+        "ollama/kimi-k2.6:cloud": {}
+      },
+      "model": {
+        "primary": "lm_studio/qwen3.6-35b-a3b-q4_k_m"
+      },
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "workspace": "/home/kensoulstar/.openclaw/workspace",
+      "subagents": {
+        "allowAgents": [
+          "main",
+          "verifier"
+        ],
+        "maxConcurrent": 5
+      },
+      "memorySearch": {
+        "provider": "ollama",
+        "model": "nomic-embed-text"
+      }
+    },
+    "list": [
+      {
+        "id": "verifier",
+        "name": "🛡️质检员",
+        "workspace": "/home/kensoulstar/.openclaw/workspace/agent/质检员",
+        "subagents": {
+          "allowAgents": [
+            "架构师",
+            "main",
+            "verifier"
+          ]
+        }
+      },
+      {
+        "id": "main",
+        "name": "主Agent",
+        "workspace": "/home/kensoulstar/.openclaw/workspace",
+        "subagents": {
+          "allowAgents": [
+            "架构师",
+            "main",
+            "verifier"
+          ]
+        }
+      },
+      {
+        "id": "架构师",
+        "name": "🏗️架构师",
+        "workspace": "/home/kensoulstar/.openclaw/agents/架构师",
+        "subagents": {
+          "allowAgents": [
+            "架构师",
+            "main",
+            "verifier"
+          ]
+        }
+      }
+    ]
+  },
+  "channels": {
+    "feishu": {
+      "enabled": true,
+      "domain": "feishu",
+      "connectionMode": "websocket",
+      "appId": "cli_a93a75484c381cef",
+      "appSecret": "BtAUJzAuPAxowy7LVdyjfc03ySsaGZEz",
+      "dmPolicy": "pairing",
+      "groupPolicy": "allowlist"
+    }
+  },
+  "tools": {
+    "profile": "full",
+    "agentToAgent": {
+      "enabled": true,
+      "allow": [
+        "架构师",
+        "main",
+        "verifier"
+      ]
+    }
+  },
+  "plugins": {
+    "entries": {
+      "lossless-claw": {
+        "enabled": true,
+        "config": {
+          "contextThreshold": 0.85,
+          "incrementalMaxDepth": -1,
+          "freshTailCount": 3,
+          "dbPath": "/home/kensoulstar/.openclaw/lcm.db"
+        }
+      },
+      "ollama": {
+        "enabled": true
+      },
+      "feishu": {
+        "enabled": true
+      }
+    }
+  },
+  "memory": {
+    "backend": "builtin"
+  },
+  "browser": {
+    "enabled": true
+  }
+}

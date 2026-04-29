@@ -1,0 +1,94 @@
+{
+    // "plugin": ["oh-my-opencode"],
+    "$schema": "https://opencode.ai/config.json",
+    "mcp": {
+        // chrome.exe --remote-debugging-port=9222 --user-data-dir="%TEMP%\chrome-profile-stable"
+        "chrome-devtools": {
+            "enabled": true,
+            "type": "local",
+            "command": [
+                "npx",
+                "-y",
+                "chrome-devtools-mcp@latest",
+                "--browser-url=http://127.0.0.1:9222"
+            ]
+        }
+    },
+    "provider": {
+        "llama.cpp": {
+            "models": {
+                "Qwen3.5-35B": {
+                    "id": "Qwen3.5-35B",
+                    "name": "Qwen3.5-35B-Local",
+                    "modalities": {
+                        "input": [
+                            "text",
+                            "image"
+                        ],
+                        "output": [
+                            "text"
+                        ]
+                    },
+                    "limit": {
+                        "context": 128000,
+                        "output": 48000
+                    }
+                }
+            },
+            "options": {
+                "baseURL": "http://127.0.0.1:8001/v1",
+                "timeout": 300000
+            }
+        },
+        "local-one-api": {
+            "models": {
+                "Qwen3.5-35B": {
+                    "id": "Qwen3.5-35B",
+                    "name": "Qwen3.5-35B-Local",
+                    "modalities": {
+                        "input": [
+                            "text",
+                            "image"
+                        ],
+                        "output": [
+                            "text"
+                        ]
+                    },
+                    "limit": {
+                        "context": 128000,
+                        "output": 48000
+                    }
+                }
+            },
+            "options": {
+                "baseURL": "http://127.0.0.1:8009/v1",
+                "timeout": 300000
+            }
+        },
+
+        "xiangongyun": {
+            "models": {
+                "xiangongyun-qwen3.5": {
+                    "id": "xiangongyun-qwen3.5",
+                    "name": "xiangongyun-qwen3.5"
+                },
+                "modalities": {
+                    "input": [
+                        "text",
+                        "image"
+                    ],
+                    "output": [
+                        "text"
+                    ]
+                },
+                "limit": {
+                    "context": 260000,
+                    "output": 48000
+                }
+            },
+            "options": {
+                "baseURL": "https://892frh72mmpeux6z-8001.container.x-gpu.com/v1"
+            }
+        }        
+    }
+}

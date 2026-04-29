@@ -1,0 +1,622 @@
+{
+  "providers": {
+    "codex": {
+      "baseUrl": "https://chatgpt.com/backend-api/v1",
+      "apiKey": "codex-app-server",
+      "auth": "token",
+      "api": "openai-codex-responses",
+      "models": [
+        {
+          "id": "gpt-5.5",
+          "name": "gpt-5.5",
+          "api": "openai-codex-responses",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 272000,
+          "maxTokens": 128000,
+          "compat": {
+            "supportsReasoningEffort": true,
+            "supportsUsageInStreaming": true
+          }
+        },
+        {
+          "id": "gpt-5.4-mini",
+          "name": "GPT-5.4-Mini",
+          "api": "openai-codex-responses",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 272000,
+          "maxTokens": 128000,
+          "compat": {
+            "supportsReasoningEffort": true,
+            "supportsUsageInStreaming": true
+          }
+        },
+        {
+          "id": "gpt-5.2",
+          "name": "gpt-5.2",
+          "api": "openai-codex-responses",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 272000,
+          "maxTokens": 128000,
+          "compat": {
+            "supportsReasoningEffort": true,
+            "supportsUsageInStreaming": true
+          }
+        }
+      ]
+    },
+    "lmstudio": {
+      "baseUrl": "http://192.168.31.71:1234/v1",
+      "api": "openai-completions",
+      "models": [
+        {
+          "id": "wukomg2.2-lite-sinq",
+          "name": "Wukomg2.2 Lite Sinq (GGUF, tool-use)",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "compat": {
+            "supportsUsageInStreaming": true
+          },
+          "contextWindow": 262144,
+          "contextTokens": 64000,
+          "maxTokens": 8192
+        },
+        {
+          "id": "wukomg2.2-lite",
+          "name": "Wukomg2.2 Lite (GGUF, tool-use)",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "compat": {
+            "supportsUsageInStreaming": true
+          },
+          "contextWindow": 262144,
+          "contextTokens": 64000,
+          "maxTokens": 8192
+        },
+        {
+          "id": "mudler/qwen3.6-35b-a3b-apex-i-compact/qwen3.6-35b-a3b-apex-i-compact.gguf",
+          "name": "Qwen3.6 35B A3B APEX I Compact (GGUF, tool-use)",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "compat": {
+            "supportsUsageInStreaming": true
+          },
+          "contextWindow": 262144,
+          "contextTokens": 64000,
+          "maxTokens": 8192
+        },
+        {
+          "id": "mudler/qwen3.6-35b-a3b-apex-i-compact/mmproj.gguf",
+          "name": "Mmproj (GGUF)",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "compat": {
+            "supportsUsageInStreaming": true
+          },
+          "contextWindow": 4096,
+          "contextTokens": 4096,
+          "maxTokens": 4096
+        },
+        {
+          "id": "mudler/qwen3.6-35b-a3b-apex-i-quality/qwen3.6-35b-a3b-apex-i-quality.gguf",
+          "name": "Qwen3.6 35B A3B APEX I Quality (GGUF, tool-use)",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "compat": {
+            "supportsUsageInStreaming": true
+          },
+          "contextWindow": 262144,
+          "contextTokens": 64000,
+          "maxTokens": 8192
+        },
+        {
+          "id": "mudler/qwen3.6-35b-a3b-apex-i-quality/mmproj.gguf",
+          "name": "Mmproj (GGUF)",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "compat": {
+            "supportsUsageInStreaming": true
+          },
+          "contextWindow": 4096,
+          "contextTokens": 4096,
+          "maxTokens": 4096
+        },
+        {
+          "id": "qwen/qwen3.6-35b-a3b",
+          "name": "Qwen3.6 35B A3B (GGUF, vision, tool-use, loaded)",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "compat": {
+            "supportsUsageInStreaming": true
+          },
+          "contextWindow": 262144,
+          "contextTokens": 64000,
+          "maxTokens": 8192
+        },
+        {
+          "id": "qwopus-glm-18b-merged",
+          "name": "Qwopus GLM 18B Healed (GGUF, tool-use)",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "compat": {
+            "supportsUsageInStreaming": true
+          },
+          "contextWindow": 262144,
+          "contextTokens": 64000,
+          "maxTokens": 8192
+        },
+        {
+          "id": "qwen3.5-9b-glm5.1-distill-v1",
+          "name": "Qwen3.5 9B GLM5.1 Distill v1 (GGUF, tool-use)",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "compat": {
+            "supportsUsageInStreaming": true
+          },
+          "contextWindow": 262144,
+          "contextTokens": 64000,
+          "maxTokens": 8192
+        },
+        {
+          "id": "qwen3.6-35b-a3b-claude-4.6-opus-reasoning-distilled",
+          "name": "Qwen3.6 35B A3B Claude 4.6 Opus Reasoning Distilled (GGUF, tool-use)",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "compat": {
+            "supportsUsageInStreaming": true
+          },
+          "contextWindow": 262144,
+          "contextTokens": 64000,
+          "maxTokens": 8192
+        },
+        {
+          "id": "qwen/qwen3.6-27b",
+          "name": "Qwen3.6 27B (GGUF, vision, tool-use)",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "compat": {
+            "supportsUsageInStreaming": true
+          },
+          "contextWindow": 262144,
+          "contextTokens": 64000,
+          "maxTokens": 8192
+        },
+        {
+          "id": "qwen3.5-27b-glm5.1-distill-v1",
+          "name": "Qwen3.5 27B GLM5.1 Distill v1 (GGUF, tool-use)",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "compat": {
+            "supportsUsageInStreaming": true
+          },
+          "contextWindow": 262144,
+          "contextTokens": 64000,
+          "maxTokens": 8192
+        },
+        {
+          "id": "gemma-4-31b-jang_4m-crack",
+          "name": "Gemma 4 31B Jang Crack (GGUF, tool-use)",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "compat": {
+            "supportsUsageInStreaming": true
+          },
+          "contextWindow": 262144,
+          "contextTokens": 64000,
+          "maxTokens": 8192
+        }
+      ],
+      "apiKey": "lmstudio-local"
+    },
+    "lm_studio": {
+      "baseUrl": "http://192.168.31.71:1234/v1",
+      "apiKey": "lm_studio",
+      "api": "openai-completions",
+      "models": [
+        {
+          "id": "qwen3.6-35b-a3b-q4_k_m",
+          "name": "lm_studio / Qwen3.6-35B-A3B-Q4_K_M",
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 2,
+            "output": 12,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1048576,
+          "maxTokens": 128000,
+          "reasoning": false,
+          "api": "openai-completions"
+        },
+        {
+          "id": "qwen3.6-27b-q4_k_m",
+          "name": "lm_studio / Qwen3.6-27B-Q4_K_M",
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0.15,
+            "output": 0.6,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 131072,
+          "maxTokens": 32768,
+          "reasoning": false,
+          "api": "openai-completions"
+        },
+        {
+          "id": "qwen3.5-27b-glm5.1-distill-v1-q4_k_s",
+          "name": "lm_studio / Qwen3.5-27B-GLM5.1-Distill-v1",
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0.15,
+            "output": 0.6,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 131072,
+          "maxTokens": 32768,
+          "reasoning": false,
+          "api": "openai-completions"
+        },
+        {
+          "id": "qwen3.5-9b-glm5.1-distill-v1-q4_k_s",
+          "name": "lm_studio / Qwen3.5-9B-GLM5.1-Distill-v1",
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0.15,
+            "output": 0.6,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 131072,
+          "maxTokens": 32768,
+          "reasoning": false,
+          "api": "openai-completions"
+        },
+        {
+          "id": "gemma-4-31b-jang-crack-q4_k_m",
+          "name": "lm_studio / Gemma-4-31B-JANG-CRACK",
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0.15,
+            "output": 0.6,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 131072,
+          "maxTokens": 32768,
+          "reasoning": false,
+          "api": "openai-completions"
+        },
+        {
+          "id": "qwopus-glm-18b-healed-q4_k_m",
+          "name": "lm_studio / Qwopus-GLM-18B-Healed",
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0.15,
+            "output": 0.6,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 131072,
+          "maxTokens": 32768,
+          "reasoning": false,
+          "api": "openai-completions"
+        }
+      ]
+    },
+    "ollama": {
+      "baseUrl": "http://127.0.0.1:11434/v1",
+      "api": "openai-completions",
+      "models": [
+        {
+          "id": "gpt-oss:120b-cloud",
+          "name": "ollama / GPT-OSS 120B Cloud",
+          "input": [
+            "text"
+          ],
+          "contextWindow": 131072,
+          "maxTokens": 32768,
+          "reasoning": false,
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "api": "openai-completions"
+        },
+        {
+          "id": "minimax-m2.1:cloud",
+          "name": "ollama / Minimax M2.1 Cloud",
+          "input": [
+            "text"
+          ],
+          "contextWindow": 131072,
+          "maxTokens": 32768,
+          "reasoning": false,
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "api": "openai-completions"
+        },
+        {
+          "id": "glm-4.7:cloud",
+          "name": "ollama / GLM-4.7 Cloud",
+          "input": [
+            "text"
+          ],
+          "contextWindow": 131072,
+          "maxTokens": 32768,
+          "reasoning": false,
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "api": "openai-completions"
+        },
+        {
+          "id": "glm-5:cloud",
+          "name": "ollama / GLM-5 Cloud",
+          "input": [
+            "text"
+          ],
+          "contextWindow": 131072,
+          "maxTokens": 32768,
+          "reasoning": false,
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "api": "openai-completions"
+        },
+        {
+          "id": "minimax-m2.5:cloud",
+          "name": "ollama / Minimax M2.5 Cloud",
+          "input": [
+            "text"
+          ],
+          "contextWindow": 131072,
+          "maxTokens": 32768,
+          "reasoning": false,
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "api": "openai-completions"
+        },
+        {
+          "id": "minimax-m2.7:cloud",
+          "name": "ollama / Minimax M2.7 Cloud",
+          "input": [
+            "text"
+          ],
+          "contextWindow": 131072,
+          "maxTokens": 32768,
+          "reasoning": false,
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "api": "openai-completions"
+        },
+        {
+          "id": "glm-5.1:cloud",
+          "name": "ollama / GLM-5.1 Cloud",
+          "input": [
+            "text"
+          ],
+          "contextWindow": 131072,
+          "maxTokens": 32768,
+          "reasoning": false,
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "api": "openai-completions"
+        },
+        {
+          "id": "deepseek-v4-flash:cloud",
+          "name": "ollama / DeepSeek V4 Flash Cloud",
+          "input": [
+            "text"
+          ],
+          "contextWindow": 131072,
+          "maxTokens": 32768,
+          "reasoning": false,
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "api": "openai-completions"
+        },
+        {
+          "id": "kimi-k2.6:cloud",
+          "name": "ollama / Kimi K2.6 Cloud",
+          "input": [
+            "text"
+          ],
+          "contextWindow": 131072,
+          "maxTokens": 32768,
+          "reasoning": false,
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "api": "openai-completions"
+        }
+      ],
+      "apiKey": "ollama-local"
+    }
+  }
+}

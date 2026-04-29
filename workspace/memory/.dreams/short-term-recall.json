@@ -1,0 +1,195 @@
+{
+  "version": 1,
+  "updatedAt": "2026-04-29T16:12:03.677Z",
+  "entries": {
+    "memory:memory/2026-04-09.md:1:42": {
+      "key": "memory:memory/2026-04-09.md:1:42",
+      "path": "memory/2026-04-09.md",
+      "startLine": 1,
+      "endLine": 42,
+      "source": "memory",
+      "snippet": "# 2026-04-09 工作日志 ## 技能安装 从桌面 `C:\\Users\\S2673S\\Desktop\\skills` 文件夹安装了18个新技能： | 技能名称 | 说明 | |----------|------| | douyin-downloader | 抖音下载器 (NodeJS版) | | douyin-video-analyst | 抖音视频分析器 | | ecommerce-competitor-analysis | 电商竞品分析 | | ecommerce-openclaw-skills | 电商相关技能合集 | | find-skills-skill | 技能查找器 | | liang-tavily-search | 梁版Tavily搜索 | | lossless-claw-enhanced | 无损Claw增强插件 | | memory-lancedb-pro-skill | LanceDB专业记忆技能 | | multi-search-engine-2-0-1 | 多搜索引擎聚合 | | openclaw-workspace | OpenClaw工作区模板 | | opencode-cn | OpenCode中文版 | | playwright-scraper-skill | Playwright网页爬虫 | | proactive-agent | 主动式AI代理 | | prompt-engineering-expert | 提示词工程专家 | | self-improving-agent-cn | 自我改进AI代理 (中文版) | | ski",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-26T16:34:09.005Z",
+      "lastRecalledAt": "2026-04-26T16:34:09.005Z",
+      "queryHashes": [
+        "24e8a1e9a63b"
+      ],
+      "recallDays": [
+        "2026-04-27"
+      ],
+      "conceptTags": [
+        "douyin-downloader",
+        "douyin-video-analyst",
+        "ecommerce-competitor-analysis",
+        "ecommerce-openclaw-skills",
+        "find-skills-skill",
+        "liang-tavily-search",
+        "lossless-claw-enhanced",
+        "memory-lancedb-pro-skill"
+      ]
+    },
+    "memory:memory/2026-03-15.md:1:29": {
+      "key": "memory:memory/2026-03-15.md:1:29",
+      "path": "memory/2026-03-15.md",
+      "startLine": 1,
+      "endLine": 29,
+      "source": "memory",
+      "snippet": "# 2026-03-15 日常记录 ## 📝 今日总结 ### 主要完成工作 1. **《勾沉录》文件整理** - 读取了用户桌面上的 `勾沉录.txt`（约 100KB） - 完成校对、错别字修正（如：\"莫西马\"→\"漠西\"、\"将义\"→\"匠役\"、\"火药降E\"→\"火药匠役\"） - 格式规范化，添加章节标题 - 保存为 WPS 文档 `勾沉录_校正版.wps` 并用 WPS 打开 2. **技能查询与推荐** - 用户询问可用技能，展示了 coding-agent、healthcheck、memory-manager、skill-creator、weather、xiaohongshu-publisher 等技能 - 用户列出了一系列技能名称询问安装状态 - 检查后发现系统已安装技能列表，推荐了 github、trello、notion、slack、discord 等实用技能 3. **codex 技能探索** - 用户想安装 codex 技能 - 发现 codex 需要先安装 CLI 工具，但 system 中已有 coding-agent 技能可以直接使用 - 创建了 `install-coding-agents.ps1` 安装脚本（但建议用户可以先试用现有功能） 4. **subagent 任务演示** - 使用 `sessions_spawn` 创建了 codex-demo subagent 会话 - subagent 自动创建了完整的待办事项 API，包含 8 个文件 - API 支",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-26T16:34:09.005Z",
+      "lastRecalledAt": "2026-04-26T16:34:09.005Z",
+      "queryHashes": [
+        "24e8a1e9a63b"
+      ],
+      "recallDays": [
+        "2026-04-27"
+      ],
+      "conceptTags": [
+        "勾沉录.txt",
+        "勾沉录-校正版.wps",
+        "coding-agent",
+        "memory-manager",
+        "skill-creator",
+        "xiaohongshu-publisher",
+        "install-coding-agents.ps1",
+        "sessions-spawn"
+      ]
+    },
+    "memory:memory/2026-04-09.md:30:46": {
+      "key": "memory:memory/2026-04-09.md:30:46",
+      "path": "memory/2026-04-09.md",
+      "startLine": 30,
+      "endLine": 46,
+      "source": "memory",
+      "snippet": "## 身份设置 根据用户要求重新设置了身份： - 用户名：星际 - 助手名：星海 🌊 - 时区：中国上海 (GMT+8) ## 对话要求 用户要求所有对话、做事、写文章等都必须使用中文，避免英文内容。 ## 技能列表整理 创建了完整的中文技能列表表格，包含71个技能的中文说明和使用示例。 --- *记录时间：2026-04-09 15:30*",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.47448000609874724,
+      "maxScore": 0.47448000609874724,
+      "firstRecalledAt": "2026-04-28T05:41:26.038Z",
+      "lastRecalledAt": "2026-04-28T05:41:26.038Z",
+      "queryHashes": [
+        "b0081a7c10ba"
+      ],
+      "recallDays": [
+        "2026-04-28"
+      ],
+      "conceptTags": [
+        "身份",
+        "设置",
+        "根据",
+        "用户",
+        "要求",
+        "重新",
+        "星际",
+        "助手"
+      ]
+    },
+    "memory:memory/2026-03-15.md:47:64": {
+      "key": "memory:memory/2026-03-15.md:47:64",
+      "path": "memory/2026-03-15.md",
+      "startLine": 47,
+      "endLine": 64,
+      "source": "memory",
+      "snippet": "## ✅ 待办事项检查 - [x] 整理勾沉录文件 - [x] 检查技能安装状态 - [x] 创建 codex 安装脚本 - [x] 演示 subagent 功能 - [x] 解释后台任务状态 ## 📌 值得记住的 - OpenClaw 的 subagent 功能强大，可以安全地在后台执行独立任务 - \"摸鱼中\" = 子代理在后台工作，主代理可以继续聊天 - 需要记录用户对安全敏感的特性 - codex 技能已就绪，可以直接使用 --- *记录时间：2026-03-15 03:21:44*",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.8192828953266142,
+      "maxScore": 0.4497085154056549,
+      "firstRecalledAt": "2026-04-28T05:41:26.038Z",
+      "lastRecalledAt": "2026-04-28T06:43:31.898Z",
+      "queryHashes": [
+        "b0081a7c10ba",
+        "bcaf9a31f08e"
+      ],
+      "recallDays": [
+        "2026-04-28"
+      ],
+      "conceptTags": [
+        "事项",
+        "检查",
+        "整理",
+        "文件",
+        "技能",
+        "安装",
+        "状态",
+        "创建"
+      ]
+    },
+    "memory:memory/2026-03-15.md:24:57": {
+      "key": "memory:memory/2026-03-15.md:24:57",
+      "path": "memory/2026-03-15.md",
+      "startLine": 24,
+      "endLine": 57,
+      "source": "memory",
+      "snippet": "- 使用 `sessions_spawn` 创建了 codex-demo subagent 会话 - subagent 自动创建了完整的待办事项 API，包含 8 个文件 - API 支持完整的 CRUD 操作和持久化存储 5. **用户沟通与解释** - 用户对 \"摸鱼中\" 状态感到疑惑 - 解释这是 subagent 在后台独立工作的正常显示，不是安全入侵 - 用户接受了解释 ### 用户偏好记录 - 用户对系统安全敏感，需要解释清楚后台任务状态 - 喜欢实用的代码生成和自动化功能 - 愿意尝试新技能但希望有清晰的说明 - 中文环境下工作，需要文件编码处理注意 ### 技术笔记 - `sessions_spawn` 成功用于创建独立的 subagent 执行任务 - 待办事项 API 模板：Flask + JSON 持久化存储 - 技能列表查询：通过 agents_list 只能看到 main agent，实际技能列表在 C:\\Users\\S2673S\\openclaw\\skills\\ 目录下 - 文件处理：注意 PowerShell 对 Unicode 文件路径的处理需要特殊引号 ## ✅ 待办事项检查 - [x] 整理勾沉录文件 - [x] 检查技能安装状态 - [x] 创建 codex 安装脚本 - [x] 演示 subagent 功能 - [x] 解释后台任务状态 ## 📌 值得记住的 - OpenClaw 的 subagent 功能强大，可以安全地在后台执行独立任务",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.7630977600812912,
+      "maxScore": 0.3856444031000137,
+      "firstRecalledAt": "2026-04-28T06:43:31.898Z",
+      "lastRecalledAt": "2026-04-29T15:10:20.251Z",
+      "queryHashes": [
+        "bcaf9a31f08e",
+        "7b32ec501362"
+      ],
+      "recallDays": [
+        "2026-04-28",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "sessions-spawn",
+        "codex-demo",
+        "agents-list",
+        "使用",
+        "创建",
+        "codex",
+        "demo",
+        "会话"
+      ]
+    },
+    "memory:memory/2026-04-29.md:30:54": {
+      "key": "memory:memory/2026-04-29.md:30:54",
+      "path": "memory/2026-04-29.md",
+      "startLine": 30,
+      "endLine": 54,
+      "source": "memory",
+      "snippet": "- 已完成 GitHub OAuth 登录授权（账户 kensoulstar，token 有 repo/gist/workflow 权限） ## openclaw-workspace 备份 - 备份目录：https://github.com/kensoulstar/openclaw-workspace - 备份内容：整个 `~/.openclaw/` 目录 - 使用方法：见下方备份脚本 ### 备份脚本位置 - 备份命令写入 `~/.openclaw/workspace/backup_openclaw.sh` - 备份前排除 node_modules、.git 等无用目录 ## 图片文件位置 所有生成的图表文件存放在：`~/.openclaw/workspace/` - `salary_flowchart.png` - `elevator_sequence.png / .svg / .drawio` ## 其他笔记 - 星际的 OpenClaw 跑在 Ubuntu 桌面机上，不是 Windows - DISPLAY=:1 是 Ubuntu 桌面图形环境 - draw.io CLI 报错 `Missing X server` 只在无头服务器环境出现，本地桌面环境无此问题",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.4077993243932724,
+      "maxScore": 0.4077993243932724,
+      "firstRecalledAt": "2026-04-29T16:12:03.677Z",
+      "lastRecalledAt": "2026-04-29T16:12:03.677Z",
+      "queryHashes": [
+        "5452361c2bf2"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "backup",
+        "备份",
+        "repo/gist/workflow",
+        "openclaw-workspace",
+        "node-modules",
+        "openclaw/workspace",
+        "salary-flowchart.png",
+        "elevator-sequence.png"
+      ]
+    }
+  }
+}
